@@ -1,0 +1,162 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+body ,.diagonal-gradient{
+    background-color: #ffffff;
+    background: linear-gradient(#54b6c8,#c4b6c8,#c4c46f);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+  }
+  
+  nav,.nav{
+    background-color:#000000 ;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration:none;
+    margin:0 30px;
+    padding: 0;
+
+  
+  }
+  h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Ultra', serif;
+  }
+
+  .scroll-arrow {
+    display: inline-block;
+    font-size: 24px;
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+  /* Estilos del menú desplegable */
+  .menu-icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        color: #000000;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    height: 100vh; /* La sección ocupa toda la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-one, #seccion-1{
+  
+    color: #000000;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+    padding: 0;
+  } 
+  .section-two, #seccion-2{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .section-three, #seccion-3{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .contente{
+    display: flex;
+    margin:auto;
+    overflow: hidden;
+    text-align: center;
+    align-items:center;
+    list-style: none;
+    font-size: 30px;
+    
+   
+  }
+  .ul, .li{
+    list-style: none;
+    margin:0;
+    overflow: hidden;
+    text-align: center;
+    align-items:center;
+    font-size: 90px;
+    animation: moving 10s infinite;
+
+  }
+
+  .section-four, .project #seciont-4{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items:center;
+    justify-content: space-around;
+  }
+
+  .section-five, #section-5{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  
+  .contact-icons{
+    margin: 0 150px;
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items:center;
+    justify-content: space-around;
+  }
+
+  .project{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+  }
+
+  
+  @keyframes moving {
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+
+    25%{margin-top: -40px;}
+    50%{margin-top: -40px;}
+
+    55%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+    100%{margin-top: 0px;}
+
+  }
